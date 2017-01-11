@@ -1,0 +1,29 @@
+$componentBg: #eee;
+$componentColor: #c00;
+
+.component {
+    background-color: $componentBg;
+}
+
+.component,
+.component__container,
+.component__head,
+.component__body,
+.component__foot {
+    border: solid 1px darken($componentBg, 20);
+    margin: 10px;
+    padding: 10px;
+}
+
+.component__container {
+    color: $componentColor;
+}
+
+.component__head {
+    font-size: 18px;
+}
+
+.component__body,
+.component__foot {
+    background-color: #fafafa;
+}
